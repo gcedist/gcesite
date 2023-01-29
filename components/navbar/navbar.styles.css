@@ -1,0 +1,77 @@
+/* Navbar */
+
+/* .github-icon {
+  font-size: 30px;
+} */
+
+.navbar {
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+}
+
+.nav-font {
+  font-size: 1rem;  /* Fixed size. previous: 1rem (maybe it was too small...) */
+  font-weight: 500;
+  /* line-height: 1.2; */
+  display: flex;
+}
+
+#nav-brand { 
+  position: absolute;
+  padding: 0;
+  margin: 0;
+}
+
+#main-logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+#main-nav-title {
+  font-size: 1.1rem;
+}
+
+#github-nav {
+  margin-left:-95px;
+}
+
+/* ajuste para telas muito estreitas */
+@media only screen and (max-width: 350px) {
+  #nav-brand {
+    position: relative;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-font {
+    font-size: 1.2rem;
+  }
+
+  #nav-brand {
+    position: relative;
+  }
+
+  #main-nav-title {
+    font-size: 1.2rem;
+  }
+
+  #github-nav {
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 767px) {
+  #nav-brand {
+    position: relative;
+  }
+
+  #main-nav-title {
+    font-size: 1.2rem;
+  }
+
+  #github-nav {
+    margin-left: auto;
+  }
+}
+

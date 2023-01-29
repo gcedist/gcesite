@@ -1,0 +1,16 @@
+.hist-chart {
+    width: calc(100% - 12px);
+    min-width: 250px;
+    height: auto;
+    border: none;
+    box-shadow: none;
+    margin: 5px auto 0 0;
+}
+
+
+@media only screen and (max-width: 767px){
+    .hist-chart {
+        margin: 10px 0 5px 0;
+        width: 100%;
+    }
+}  

@@ -1,0 +1,71 @@
+/* Link Wrapper */
+.invisible-link {
+    color: black;
+    background-color: transparent;
+}
+
+.invisible-link:hover,
+.invisible-link:visited,
+.invisible-link:link,
+.invisible-link:active {
+    text-decoration: none;
+    /* color: #black; */
+    background-color: transparent;
+}
+
+
+/* Card */
+.custom-card {
+    font-family: 'Roboto Slab';
+    min-width: 100px;
+    max-width: 250px;
+    width: 85%;
+    float: none;
+    display: block;
+    flex: 1;
+    top: 0px;
+    position: relative;
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px 10px;
+    margin: 5px auto;
+    text-decoration: none;
+    /* z-index: 0; */
+    overflow: visible;
+    border: 1px solid #f2f8f9;
+    /* filter: grayscale(1); */
+}
+
+.custom-card:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    cursor: pointer;
+    /* filter: none; */
+}
+
+.custom-card:before {
+    background: white;
+    margin: 30px auto;
+    border-radius: 4px;
+    float: none;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+}
+
+.custom-card:hover:before {
+    transform: scale(2.15);
+}
+
+@media screen and (max-width:767px) {
+    .custom-card {
+        width: 60%;
+        height: 60%;
+        filter: unset;
+        margin: 10px auto;
+        padding: 0px 0px;
+    }
+}

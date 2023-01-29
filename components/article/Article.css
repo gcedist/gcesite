@@ -1,0 +1,68 @@
+.article {
+    width: calc(100% - 12px);
+    min-width: 250px;
+    height: auto;
+    border: none;
+    box-shadow: none;
+    margin: 5px auto 0 0;
+  }
+ 
+
+  .article h2 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .article p {
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .article Button {
+    font-size: 12px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(185, 185, 185);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color:rgb(185, 185, 185);
+    border-color: rgb(185, 185, 185);
+}
+  
+  .article Button:hover {
+    background-color: rgb(185, 185, 185);
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color:rgb(126, 126, 126);
+    border-color: rgb(126, 126, 126);
+}
+  .article {
+  
+    width: 90%;
+    min-width: 250px;
+    height: auto;
+    border: 0px solid black;
+    border-radius: 8px;
+    box-shadow: none;
+    background-color: white;
+    padding: 8px;
+    margin: 50px auto;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .article {
+      margin: 10px 0 5px 0;
+      width: 100%;
+    }
+  }
+  
+  

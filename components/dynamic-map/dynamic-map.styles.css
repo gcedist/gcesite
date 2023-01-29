@@ -1,0 +1,15 @@
+.dynamic-map {
+    height: 64vh;
+    min-height: 350px;
+}
+
+.leaflet-div-icon {
+    background: transparent;
+    border: none;
+}  
+
+/* @media screen and (max-width:768px) {
+    .dynamic-map {
+        height: 64vh;
+    }
+} */

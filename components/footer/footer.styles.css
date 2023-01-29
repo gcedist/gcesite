@@ -1,0 +1,84 @@
+/* Main classes */
+.footer-container {
+    margin-top:0px;
+    padding-top:0px;
+}
+
+.footer {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.footer-top {
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0 0 50px;
+    color: black;
+}
+
+.footer-menu {
+    background-color: #263238;
+    padding: 20px;
+    color: white;
+}
+
+#footer-title {
+    font-size: 2.2rem;
+    margin-bottom:4vh;
+}
+
+/* Reusable classes */
+.footer-container .inline-list{
+    padding:0;
+    margin: 10px auto 20px;
+}
+
+.footer-container .inline-list li { display:inline;}
+.footer-container .inline-list li a { 
+    color:white; 
+    margin:0 12px;
+}
+
+.footer-copyright {
+    /* cor antiga: #263238 */
+    background-color: #0d1929;  
+    color: white;
+}
+
+.copyright-text {
+    font-size: 0.8rem;
+}
+
+/* Bordas */
+.bottom-border {
+    border-bottom: 1px solid #323f45;
+    padding-bottom: 10px;
+}
+
+.top-border {
+    border-top: 1px solid lightgray;
+}
+
+/* Imagens */
+.footer-logo {
+    height: 60px;
+    margin: 20px;
+}
+
+#PCDASLogo-footer {
+    height: 50px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    #footer-title {
+        font-size: 1.8rem;
+    }
+    .footer-logo {
+        height: 50px;
+    }
+    #PCDASLogo-footer {
+        height: 40px;
+    }
+}
